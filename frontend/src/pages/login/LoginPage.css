@@ -27,25 +27,7 @@ p {
 }
 
 .signup-wrapper .company-details {
-  background: hsla(232, 73%, 65%, 1);
-
-  background: linear-gradient(
-    90deg,
-    hsla(232, 73%, 65%, 1) 0%,
-    hsla(279, 33%, 48%, 1) 100%
-  );
-
-  background: -moz-linear-gradient(
-    90deg,
-    hsla(232, 73%, 65%, 1) 0%,
-    hsla(279, 33%, 48%, 1) 100%
-  );
-
-  background: -webkit-linear-gradient(
-    90deg,
-    hsla(232, 73%, 65%, 1) 0%,
-    hsla(279, 33%, 48%, 1) 100%
-  );
+  background: linear-gradient(to right, #870000 0%, #190a05 51%, #870000 100%);
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6274E7", endColorstr="#8752A3", GradientType=1 );
   background-size: cover;
@@ -104,20 +86,20 @@ p {
   justify-content: center;
   margin: 30px 80px;
 }
-.signup-wrapper .signup-form .form form{
-    display: flex;
-    flex-direction: column;
+.signup-wrapper .signup-form .form form {
+  display: flex;
+  flex-direction: column;
 }
 
-.signup-wrapper .signup-form .form form Link{
-    display: flex;
-    text-align: center;
+.signup-wrapper .signup-form .form form Link {
+  display: flex;
+  text-align: center;
 }
 .signup-wrapper .signup-form .form-title {
   font-size: 1.5em;
   font-weight: 600;
   font-family: "Edu VIC WA NT Beginner", cursive;
-  color: hsla(279, 33%, 48%, 1);
+  color: #ab1322;
   padding: 5px;
   display: flex;
   text-align: center;
@@ -132,34 +114,35 @@ p {
   text-align: center;
 }
 
-.signup-wrapper .signup-form .form .create{
-    text-align: center;
-    margin-top: 0.5rem;
+.signup-wrapper .signup-form .form .create {
+  text-align: center;
+  margin-top: 0.5rem;
 }
 
-.signup-wrapper .signup-form .form .create .signup_link{
-    text-decoration: none;
-    font-weight: 600;
+.signup-wrapper .signup-form .form .create .signup_link {
+  text-decoration: none;
+  color: 
+  #ab1322;
+  font-weight: 600;
 }
 
 .signup-wrapper .signup-form .form .create a:active {
   color: black;
 }
 
-
-.signup-wrapper .signup-form .form button{
-    font-size: 1.1rem;
+.signup-wrapper .signup-form .form button {
+  font-size: 1.1rem;
 }
 
 .signup-wrapper .signup-form .form input[type="text"]:focus,
-.signup-wrapper .signup-form .form input[type="password"]:focus{
-outline: none;
-border-bottom: 2px solid hsla(279, 33%, 48%, 1);
+.signup-wrapper .signup-form .form input[type="password"]:focus {
+  outline: none;
+  border-bottom: 2px solid #ab1322;
 }
 
 .signup-wrapper .signup-form .form input[type="text"],
 .signup-wrapper .signup-form .form input[type="password"] {
-  border: none;  
+  border: none;
   border-bottom: 2px solid #808080;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -172,26 +155,23 @@ border-bottom: 2px solid hsla(279, 33%, 48%, 1);
 .signup-wrapper .signup-form .signup {
   background-image: linear-gradient(
     to right,
-    #2b5876 0%,
-    #4e4376 51%,
-    #2b5876 100%
+    #870000 0%,
+    #190a05 51%,
+    #870000 100%
   );
-  margin-top: 25px;
-  padding: 15px 25px;
-  border: none;
-  display: flex;
-  justify-self: center;
+  margin: 10px;
+  padding: 15px 45px;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
   box-shadow: 0 0 20px #eee;
-  border-radius: 5px;
+  border-radius: 10px;
+  display: block;
   font-weight: 600;
   width: 100%;
   cursor: pointer;
-  
 }
 
 .btn-grad:hover {
@@ -253,12 +233,11 @@ input::placeholder {
     width: 70%;
     margin: 0 auto;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.2em;
     text-align: center;
     text-shadow: 1px 1px #4b4a4a;
     display: block;
-
   }
   .signup-wrapper .company-details .title {
     width: 76%;
