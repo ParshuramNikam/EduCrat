@@ -142,6 +142,10 @@
       font-weight: 600;
   }
 
+  .signup-wrapper .signup-form .form .create a:active {
+  color: black;
+}
+
   .login-wrapper .login-form .form button{
     font-size: 1.1rem;
 }

@@ -139,9 +139,13 @@ p {
 
 .signup-wrapper .signup-form .form .create .signup_link{
     text-decoration: none;
-    
     font-weight: 600;
 }
+
+.signup-wrapper .signup-form .form .create a:active {
+  color: black;
+}
+
 
 .signup-wrapper .signup-form .form button{
     font-size: 1.1rem;

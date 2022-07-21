@@ -1,20 +1,68 @@
-.navbar{
-    padding: 1rem 2rem ;
-    background-color: #f87171;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar {
+  padding: 1rem 2rem;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navbar .left_side, .navbar .right_side{
-    display: flex;
-    gap: 0.5rem;
-    justify-content: space-between;
-    align-items: center;
+.navbar .left_side,
+.navbar .right_side {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.navbar .mid{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.navbar .left_side .name {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar .mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .right_side span {
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.navbar .right_side a:link {
+  text-decoration: none;
+}
+
+.navbar .right_side button {
+  font-size: 0.9rem;
+  background-color: transparent;
+  padding: 4px 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.navbar .right_side button:after::hover {
+  background-color: black;
+  color: white;
+  border: 1.5px solid black;
+  border-radius: 4px;
+}
+
+.navbar .right_side button:hover {
+  background-color: black;
+  color: white;
+  border: 1.5px solid black;
+  border-radius: 4px;
+    transition: 0.3s ease-in-out;
 }
