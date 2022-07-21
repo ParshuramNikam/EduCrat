@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background: #e9e9e9;
+  }
+  .content {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .shadow-box {
+    background: white;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  @media (min-width: 700px) {
+    .shadow-box {
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  .login-wrapper .company-details {
+    background: hsla(232, 73%, 65%, 1);
+  
+    background: linear-gradient(
+      90deg,
+      hsla(232, 73%, 65%, 1) 0%,
+      hsla(279, 33%, 48%, 1) 100%
+    );
+  
+    background: -moz-linear-gradient(
+      90deg,
+      hsla(232, 73%, 65%, 1) 0%,
+      hsla(279, 33%, 48%, 1) 100%
+    );
+  
+    background: -webkit-linear-gradient(
+      90deg,
+      hsla(232, 73%, 65%, 1) 0%,
+      hsla(279, 33%, 48%, 1) 100%
+    );
+  
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6274E7", endColorstr="#8752A3", GradientType=1 );
+    background-size: cover;
+    position: relative;
+  }
+  .login-wrapper .company-details:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.75) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+  
+  .login-wrapper .company-details .wrapper-1 {
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 22px;
+  }
+  .login-wrapper .company-details .logo {
+    padding: 0 0px;
+    width: 20%;
+    margin: 0 auto;
+  }
+  .login-wrapper .company-details .logo .icon-food {
+    background: url(/images/logo/logo_icon1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+  }
+  .login-wrapper .company-details .title {
+    padding: 20px;
+    width: 74%;
+    margin: 0 auto;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2em;
+    text-shadow: 1px 1px #4b4a4a;
+    text-align: center;
+  }
+  
+  .login-wrapper .login-form .wrapper-2 {
+    padding: 14px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 80px;
+  }
+  .login-wrapper .login-form .form form{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .login-wrapper .login-form .form form Link{
+      display: flex;
+      text-align: center;
+  }
+  .login-wrapper .login-form .form-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    color: hsla(279, 33%, 48%, 1);
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .login-wrapper .login-form .form .content-item {
+    text-transform: uppercase;
+    color: #808080;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    text-align: center;
+  }
+  
+  .login-wrapper .login-form .form .create{
+      text-align: center;
+      margin-top: 0.5rem;
+  }
+  
+  .login-wrapper .login-form .form .create .signup_link{
+      text-decoration: none;
+      font-weight: 600;
+  }
+
+  .login-wrapper .login-form .form button{
+    font-size: 1.1rem;
+}
+  
+  .login-wrapper .login-form .form input[type="text"]:focus,
+  .login-wrapper .login-form .form input[type="password"]:focus{
+  outline: none;
+  border-bottom: 2px solid hsla(279, 33%, 48%, 1);
+  }
+  
+  .login-wrapper .login-form .form input[type="text"],
+  .login-wrapper .login-form .form input[type="password"] {
+    border: none;  
+    border-bottom: 2px solid #808080;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    outline: 0;
+  }
+  
+  .login-wrapper .login-form .login {
+    background-image: linear-gradient(
+      to right,
+      #2b5876 0%,
+      #4e4376 51%,
+      #2b5876 100%
+    );
+    margin-top: 25px;
+    padding: 15px 25px;
+    border: none;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    
+  }
+  
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  input::placeholder {
+    color: #575757;
+  }
+  
+  @media (min-width: 200px) {
+    .login-wrapper .login-form .wrapper-2 {
+      margin: 30px 23px;
+    }
+  
+    .login-wrapper .company-details .title {
+      width: 90%;
+      font-size: 1.5em;
+    }
+  }
+  @media (min-width: 300px) {
+    .login-wrapper .login-form .login {
+      display: inline-block;
+    }
+    .login-wrapper .login-form .wrapper-2 {
+      margin: 30px 60px;
+    }
+  
+    .login-wrapper .company-details .title {
+      width: 80%;
+      font-size: 2em;
+    }
+  }
+  @media (min-width: 500px) {
+    .login-wrapper .login-form .login {
+      display: inline;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .login-wrapper .company-details,
+    .login-wrapper .login-form {
+      width: 50%;
+    }
+    .login-wrapper {
+      display: flex;
+      max-width: 700px;
+      margin: 0 auto;
+      margin-top: 5%;
+    }
+    .login-wrapper .company-details .wrapper-1 {
+      padding-bottom: 150px;
+      padding-top: 160px;
+    }
+    .login-wrapper .company-details .slogan {
+      padding: 0 20px;
+      width: 70%;
+      margin: 0 auto;
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.2em;
+      text-align: center;
+      text-shadow: 1px 1px #4b4a4a;
+      display: block;
+    }
+    .login-wrapper .company-details .title {
+      width: 76%;
+    }
+    .login-wrapper .login-form .wrapper-2 {
+      padding: 50px 40px;
+      margin: 0;
+    }
+  
+    .login-wrapper .login-form .login {
+      display: inline;
+    }
+    .login-wrapper .login-form .form .content-item {
+      text-align: initial;
+    }
+    .login-wrapper .login-form .form input[type="text"],
+    .login-wrapper .login-form .form input[type="password"] {
+      text-align: initial;
+    }
+    .login-wrapper .login-form .form-title {
+      text-align: initial;
+      padding: 0;
+    }
+  }
+  
