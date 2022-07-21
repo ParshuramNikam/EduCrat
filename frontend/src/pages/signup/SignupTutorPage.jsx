@@ -3,7 +3,7 @@ import "./SignupPage.css";
 import { useState } from "react"; 
 import {Link} from "react-router-dom";
 
-const SignupPage = () => {
+const SignupTutorPage = () => {
 
     const [name, setName] = useState("");
     const [password, setPassword] = useState("");
@@ -30,7 +30,7 @@ const SignupPage = () => {
           </div>
           <div className="signup-form ">
             <div className="wrapper-2">
-              <div className="form-title">Sign Up to EduCrat</div>
+              <div className="form-title">Become a Tutor</div>
               <div className="form">
                 <form>
 
@@ -100,4 +100,4 @@ const SignupPage = () => {
   );
 };
 
-export default SignupPage;
+export default SignupTutorPage;

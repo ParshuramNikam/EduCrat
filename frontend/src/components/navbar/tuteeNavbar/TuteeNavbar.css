@@ -1,0 +1,15 @@
+.tutee_navbar{
+    padding: 1rem 2rem ;
+    background-color: #f87171;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tutee_navbar .left_side, .tutee_navbar .right_side{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -28,7 +28,7 @@ const LoginPage = () => {
             </div>
             <div className="login-form ">
               <div className="wrapper-2">
-                <div className="form-title">WELCOME</div>
+                <div className="form-title">Welcome to EduCrat</div>
                 <div className="form">
                   <form>
                     <div className="content-item">
