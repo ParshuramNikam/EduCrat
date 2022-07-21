@@ -1,0 +1,33 @@
+.categories_section{
+    padding: 1rem 0;
+}
+
+.categories_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0.5rem;
+    border-radius: 3px;
+    gap: 01rem;
+
+}
+
+.categories_wrapper .category_card{
+    padding: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 4px;
+}
+
+.categories_section h1{
+    text-align: center;
+}
+
+.categories_wrapper .category_card img{
+    padding: 0.5rem;
+    background: white;
+}
+.categories_wrapper .category_card span{
+    font-size: 1.1rem;
+}
