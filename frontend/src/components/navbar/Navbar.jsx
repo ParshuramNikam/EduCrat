@@ -4,10 +4,9 @@ import TutorNavbar from './tutorNavbar/TutorNavbar'
 
 const Navbar = ({ navbarType }) => {
     if (navbarType) {
-        if(navbarType === "home") return <DefaultNavbar />
-        if(navbarType === "start_teaching") return <TutorNavbar />
-        // if(navbarType === "")
-
+        if(navbarType === "home" ) return <DefaultNavbar />
+        if(navbarType === "dashboard" ) return <DefaultNavbar />
+        if(navbarType === "tutor_dashboard") return <TutorNavbar />
     } else {
         return (
             <div>NOT A VALID NAVBAR</div>

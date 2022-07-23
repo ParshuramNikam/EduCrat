@@ -11,10 +11,10 @@ import './SutdentDashboard.css'
 const StudentDashboard = () => {
   return (
     <div>
-      <DefaultNavbar />
+      {/* <DefaultNavbar /> */}
       <Categories />
       <CardSwiper />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

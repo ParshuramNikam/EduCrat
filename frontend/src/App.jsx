@@ -9,6 +9,7 @@ import PageLayout from "./components/layouts/PageLayout";
 import TutorHomePage from "./pages/home/TutorHomePage";
 import SignupTutorPage from "./pages/signup/SignupTutorPage";
 import StudentDashboard from "./pages/studentDashboard/StudentDashboard";
+import TutorDashboard from "./pages/tutorDashboard/TutorDashboard";
 
 function App() {
   const componentList = [
@@ -30,7 +31,12 @@ function App() {
       <Route path="/login" element={<LoginPage/>}></Route>
       <Route path="/signup" element={<SignupPage/>}></Route>
       <Route path="/signup-tutor" element={<SignupTutorPage />}></Route>
-      <Route path="/dashboard" element={<StudentDashboard/>}></Route>
+      <Route  path="/dashboard" element={<PageLayout navbarType={"dashboard"}/>}>
+        <Route index element={<StudentDashboard />} />
+      </Route>
+      <Route  path="/tutor-dashboard" element={<PageLayout navbarType={"tutor_dashboard"}/>}>
+        <Route index element={<TutorDashboard />} />
+      </Route>
       
       {/* Beacome a tutor landing page with layout */}
       {/* <Route  path="/start_teaching" element={<PageLayout navbarType={"start_teaching"}/>}>

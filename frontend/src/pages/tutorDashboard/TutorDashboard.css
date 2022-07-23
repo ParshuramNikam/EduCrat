@@ -1,0 +1,58 @@
+.tutor_dashboard{
+    margin: 2rem 1rem ;
+    background-color: #d5d4d2;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 0.8fr 2.5fr;
+}
+
+.tutor_dashboard_container{
+    display: flex;
+    background-color: white;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.tutor_dashboard_container  .main_wrapper{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.tutor_dashboard_container  .avatar_wrapper{
+    width: max-content;
+    position: relative;
+	padding-top: 4px;
+	padding-left: 4px;
+	display: flex; 
+	align-items: center;
+	justify-content: start;
+}
+
+.tutor_dashboard_container .avatar_wrapper .avatar_img{
+	border-radius: 50%;
+	margin: 0px 8px;
+	height: 50px;
+	width: 50px;
+}
+
+.tutor_dashboard_container  .avatar_name{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #62646a;
+}
+
+.tutor_dashboard_container .star_rating_container{
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.tutor_dashboard_container .star_rating_container .star_rating{
+    height: 30px;
+    width: 30px;
+    padding: 4pxs;
+}

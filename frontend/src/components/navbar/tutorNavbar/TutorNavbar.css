@@ -1,15 +1,124 @@
-.tutor_navbar{
-    padding: 1rem 2rem ;
-    background-color: #f87171;
+.navbar {
+    padding: 1rem 2rem;
+    background-color: #ab1322;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.tutor_navbar .left_side, .tutor_navbar .right_side{
+  }
+  
+  .navbar .left_side,
+  .navbar .right_side {
     display: flex;
-    gap: 0.5rem;
-    justify-content: space-between;
+    gap: 0.5rem; 
+    justify-content: space-evenly;
     align-items: center;
+  }
+  
+  .navbar .left_side .name {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .navbar .left_side a{
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    padding-right: 10px;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+  color: white;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+/* 
+  .navbar .left_side  a:hover {
+    box-shadow: inset 100px 0 0 0 white;
+    color: white;
+  } */
+
+  .navbar .left_side .elemets_div{
+    display: flex;
+    margin-left: 1rem;
+    gap: 1rem;
+  }
+
+  .navbar .left_side a:link {
+    text-decoration: none;
+  }
+
+  .navbar .left_side a:hover {
+    text-decoration: none;
+    color:  #e1e1e1;
+  }
+
+  
+  .navbar .right_side span {
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    /* padding-right: 10px; */
+  }
+  
+  .navbar .right_side a:link {
+    text-decoration: none;
+  }
+  
+  .navbar .right_side button {
+    font-size: 0.9rem;
+    background-color: transparent;
+    padding: 4px 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+   .navbar .right_side button:after::hover {
+    background-color: black;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 4px;
+  } 
+  
+   .navbar .right_side button:hover {
+    background-color: black;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out; 
+  }
+
+  .avatar_wrapper{
+    position: relative;
+	padding-top: 4px;
+	padding-left: 4px;
+	display: flex; 
+	align-items: center;
+	justify-content: start;
 }
 
+.avatar_wrapper .online {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    bottom: 4px;
+    right: 6px;
+    background-color: #00ff00;
+}
+
+.avatar_wrapper .avatar_img{
+	border-radius: 50%;
+	margin: 0px 8px;
+	height: 25px;
+	width: 25px;
+}
+  
