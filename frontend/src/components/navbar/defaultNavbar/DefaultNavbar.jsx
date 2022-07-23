@@ -14,9 +14,9 @@ const DefaultNavbar = () => {
         <SearchBox />
       </div>
       <div className="right_side">
-        <Link to={"/signup-tutor"}>
+        {/* <Link to={"/signup-tutor"}>
           <span>Become a Tutor</span>
-        </Link>
+        </Link> */}
 
         <Link to={"/login"}>
           <span>Sign in</span>

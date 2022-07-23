@@ -4,6 +4,7 @@ import TutorNavbar from "../navbar/tutorNavbar/TutorNavbar";
 import TuteeNavbar from "../navbar/tuteeNavbar/TuteeNavbar";
 import { Outlet } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
+import Footer from "../Home/footer/Footer";
 
 const PageLayout = ({navbarType}) => {
 
@@ -11,6 +12,7 @@ const PageLayout = ({navbarType}) => {
     <>
       <Navbar navbarType={navbarType} />
       <Outlet />
+      <Footer/>
     </>
   );
 };

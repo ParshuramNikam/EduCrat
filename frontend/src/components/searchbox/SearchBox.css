@@ -27,6 +27,7 @@
 .searchButton{
     height: 36px;
     border:1.5 px solid white;
+    cursor: pointer;
 }
 @media screen and (max-width: 620px) {
 .searchBox:hover > .searchInput {

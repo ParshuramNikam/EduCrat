@@ -1,4 +1,4 @@
-const topCategories = [
+const  topCategories = [
     {
         name: "Label",
         image: "/Images/Icons/categories/label.svg",

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
-const footer = () => {
+const Footer = () => {
   return (
     <>
     <footer class="footer-section">
@@ -184,4 +184,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

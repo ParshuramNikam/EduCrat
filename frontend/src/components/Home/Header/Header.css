@@ -75,7 +75,7 @@
   .home_header .right_side button:hover {
 	background-color: black;
 	color: white;
-	border: 1.5px solid white;
+	/* border: 1.5px solid white; */
 	border-radius: 4px;
 	transition: 0.3s ease-in-out;
   }

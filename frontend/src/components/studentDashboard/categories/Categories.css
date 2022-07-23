@@ -1,0 +1,6 @@
+.trending_cat_wrapper{
+    display: grid;
+    gap: 1rem;
+    margin: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}

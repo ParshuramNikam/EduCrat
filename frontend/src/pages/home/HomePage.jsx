@@ -7,6 +7,7 @@ const HomePage = () => {
   return (
     <div>
       <Header />
+      Loremado;fja[f p]ajasjp[kgjap[kdjfl;asjhfoajdsd;fjasogh[aodjgpf[]]]]
       <Categories />
       <Footer />
     </div>
