@@ -8,7 +8,17 @@
     gap: 1rem;
 }
 
-.title_wrapper{
+.category_container .img_wrapper{
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: 1px solid #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category_container .title_wrapper{
     font-size: 1rem;
     font-weight: 600;
 }

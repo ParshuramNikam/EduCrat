@@ -22,7 +22,7 @@
   "resolved" "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.18.8.tgz"
   "version" "7.18.8"
 
-"@babel/core@^7.18.6":
+"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.18.6":
   "integrity" "sha512-1LIb1eL8APMy91/IMW+31ckrfBM4yCoLaVzoDhZUKSM4cu1L1nIidyxkCgzPAgrC5WEz36IPEr/eSeSF9pIn+g=="
   "resolved" "https://registry.npmjs.org/@babel/core/-/core-7.18.9.tgz"
   "version" "7.18.9"
@@ -241,39 +241,6 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     "to-fast-properties" "^2.0.0"
 
-"@fortawesome/fontawesome-common-types@6.1.1":
-  "integrity" "sha512-wVn5WJPirFTnzN6tR95abCx+ocH+3IFLXAgyavnf9hUmN0CfWoDjPT/BAWsUVwSlYYVBeCLJxaqi7ZGe4uSjBA=="
-  "resolved" "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.1.1.tgz"
-  "version" "6.1.1"
-
-"@fortawesome/fontawesome-svg-core@^6.1.1":
-  "integrity" "sha512-NCg0w2YIp81f4V6cMGD9iomfsIj7GWrqmsa0ZsPh59G7PKiGN1KymZNxmF00ssuAlo/VZmpK6xazsGOwzKYUMg=="
-  "resolved" "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.1.1.tgz"
-  "version" "6.1.1"
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "6.1.1"
-
-"@fortawesome/free-regular-svg-icons@^6.1.1":
-  "integrity" "sha512-xXiW7hcpgwmWtndKPOzG+43fPH7ZjxOaoeyooptSztGmJxCAflHZxXNK0GcT0uEsR4jTGQAfGklDZE5NHoBhKg=="
-  "resolved" "https://registry.npmjs.org/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-6.1.1.tgz"
-  "version" "6.1.1"
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "6.1.1"
-
-"@fortawesome/free-solid-svg-icons@^6.1.1":
-  "integrity" "sha512-0/5exxavOhI/D4Ovm2r3vxNojGZioPwmFrKg0ZUH69Q68uFhFPs6+dhAToh6VEQBntxPRYPuT5Cg1tpNa9JUPg=="
-  "resolved" "https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-6.1.1.tgz"
-  "version" "6.1.1"
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "6.1.1"
-
-"@fortawesome/react-fontawesome@^0.2.0":
-  "integrity" "sha512-uHg75Rb/XORTtVt7OS9WoK8uM276Ufi7gCzshVWkUJbHhh3svsUUeqXerrM96Wm7fRiDzfKRwSoahhMIkGAYHw=="
-  "resolved" "https://registry.npmjs.org/@fortawesome/react-fontawesome/-/react-fontawesome-0.2.0.tgz"
-  "version" "0.2.0"
-  dependencies:
-    "prop-types" "^15.8.1"
-
 "@jridgewell/gen-mapping@^0.1.0":
   "integrity" "sha512-sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w=="
   "resolved" "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz"
@@ -360,7 +327,7 @@
   dependencies:
     "color-convert" "^1.9.0"
 
-"browserslist@^4.20.2":
+"browserslist@^4.20.2", "browserslist@>= 4.21.0":
   "integrity" "sha512-MonuOgAtUB46uP5CezYbRaYKBNt2LxP0yX+Pmj4LkcDFGkn9Cbpi83d9sCjwQDErXsIJSzY5oKGDbgOlF/LPAA=="
   "resolved" "https://registry.npmjs.org/browserslist/-/browserslist-4.21.2.tgz"
   "version" "4.21.2"
@@ -419,6 +386,13 @@
   "version" "4.3.4"
   dependencies:
     "ms" "2.1.2"
+
+"dom7@^4.0.4":
+  "integrity" "sha512-DSSgBzQ4rJWQp1u6o+3FVwMNnT5bzQbMb+o31TjYYeRi05uAcpF8koxdfzeoe5ElzPmua7W7N28YJhF7iEKqIw=="
+  "resolved" "https://registry.npmjs.org/dom7/-/dom7-4.0.4.tgz"
+  "version" "4.0.4"
+  dependencies:
+    "ssr-window" "^4.0.0"
 
 "electron-to-chromium@^1.4.188":
   "integrity" "sha512-ola5UH0xAP1oYY0FFUsPvwtucEzCQHucXnT7PQ1zjHJMccZhCDktEugI++JUR3YuIs7Ff7afz+OVEhVAIMhLAQ=="
@@ -575,7 +549,7 @@
     "picocolors" "^1.0.0"
     "source-map-js" "^1.0.2"
 
-"prop-types@^15.5.8", "prop-types@^15.8.1":
+"prop-types@^15.5.8":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -584,7 +558,7 @@
     "object-assign" "^4.1.1"
     "react-is" "^16.13.1"
 
-"react-dom@^18.2.0":
+"react-dom@^18.2.0", "react-dom@>=16.8":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -633,7 +607,7 @@
   dependencies:
     "history" "^5.2.0"
 
-"react@^18.2.0":
+"react@^18.2.0", "react@>=16.8":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -688,6 +662,11 @@
   "resolved" "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
   "version" "1.4.8"
 
+"ssr-window@^4.0.0", "ssr-window@^4.0.2":
+  "integrity" "sha512-ISv/Ch+ig7SOtw7G2+qkwfVASzazUnvlDTwypdLoPoySv+6MqlOV10VwPSE6EWkGjhW50lUmghPmpYZXMu/+AQ=="
+  "resolved" "https://registry.npmjs.org/ssr-window/-/ssr-window-4.0.2.tgz"
+  "version" "4.0.2"
+
 "supports-color@^5.3.0":
   "integrity" "sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow=="
   "resolved" "https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz"
@@ -699,6 +678,14 @@
   "integrity" "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w=="
   "resolved" "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   "version" "1.0.0"
+
+"swiper@^8.0.0":
+  "integrity" "sha512-ue0ybmUIQXZccKo7KutJ2dKM1RgFt7JgJHM7F6adr0JAbG7dJUnTTSQ5l/2AS8/mwv3t4sPCL9lFh9pUAtq1iw=="
+  "resolved" "https://registry.npmjs.org/swiper/-/swiper-8.0.0.tgz"
+  "version" "8.0.0"
+  dependencies:
+    "dom7" "^4.0.4"
+    "ssr-window" "^4.0.2"
 
 "to-fast-properties@^2.0.0":
   "integrity" "sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog=="

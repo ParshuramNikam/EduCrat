@@ -1,5 +1,5 @@
 import React from "react";
-// import './CategoryCard.css';
+import './CategoryCard.css';
 
 const CategoryCard = ({name,image}) => {
   return (
@@ -8,7 +8,7 @@ const CategoryCard = ({name,image}) => {
         <img src={image} height={30} width={30} alt=""/>
       </div>
       <div className="title_wrapper">
-        <span >{name}</span>
+        <div>{name}</div>
       </div>
     </div>
   );

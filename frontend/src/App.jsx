@@ -30,7 +30,8 @@ function App() {
       <Route path="/login" element={<LoginPage/>}></Route>
       <Route path="/signup" element={<SignupPage/>}></Route>
       <Route path="/signup-tutor" element={<SignupTutorPage />}></Route>
-      {/* <Route path="/dashboard" element={<StudentDashboard/>}></Route> */}
+      <Route path="/dashboard" element={<StudentDashboard/>}></Route>
+      
       {/* Beacome a tutor landing page with layout */}
       {/* <Route  path="/start_teaching" element={<PageLayout navbarType={"start_teaching"}/>}>
         <Route index  element={<TutorHomePage />} />
