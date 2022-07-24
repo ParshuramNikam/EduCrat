@@ -1,5 +1,6 @@
 .tutor_dashboard_page {
 	background: #f1f5f9;
+	min-height: 90vh;
 	padding: 1rem;
 }
 
@@ -9,4 +10,16 @@
 	grid-template-columns: 1fr 3fr;
 	/* align-items: center;
 	justify-content: center; */
+}
+
+.tutor_dashboard_page .dashboard_container .gig_title{
+	font-size: 1.5rem;
+	font-weight: 600;
+	padding-top: 1rem;
+	padding-left:  1rem;
+	/* background-color: white; */
+	border-radius: 5px;
+	/* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+	/* text-align: center; */
+	color: #404145;
 }

@@ -3,7 +3,7 @@ import './profileProgressWrapper.css';
 
 const ProfileProgressWrapper = () => {
     return (
-        <div className="profile_details_wrapper">
+        <div className="profile_details_wrapper profile_details_wrapper_shadow ">
             <div className="name_rating">
                 <div className="avatar_container">
                     <div className="avatar_wrapper">
@@ -42,10 +42,17 @@ const ProfileProgressWrapper = () => {
             <div className="progress_Wrapper">
                 {/* <div className="container"> */}
                 <div className="inbox_response_rate rating_wrapper">
-                    <div>Inbox container rate</div>
+                    <div>Inbox response rate</div>
                     <div className="rating_wrapper">
                         <div className="rating"></div>
+                        {/* <progress id="file" value="32" max="100"> 32% </progress> */}
                         <span>100%</span>
+                    </div>
+                </div>
+                <div className="inbox_response_rate rating_wrapper">
+                    <div>Order response time</div>
+                    <div className="rating_wrapper">
+                        <span>1 Hrs</span>
                     </div>
                 </div>
                 <div className="inbox_response_rate rating_wrapper">

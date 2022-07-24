@@ -1,0 +1,100 @@
+.dashboard_gig_container .dashboard_gig_filter_wrapper{
+    background-color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .dashboard_gig_main_div .gig_image{
+    height: 50px;
+    width: 100px;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .student_avatar{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .studend_avatar_container{
+    position: relative;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .studend_avatar_container .student_online_status{
+    position: absolute;
+    height: 10px;
+    background-color: 	#00FF00;
+    width: 10px;
+    bottom: 4px ;
+    right: 0;
+    border-radius: 50%;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .student_name{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .course_price_wrapper .course_title{
+    color: #62646A;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .course_price_wrapper .course_amount{
+    color:black;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.dashboard_gig_container .dashboard_gig_filter_wrapper .due_data_wrapper{
+    color: #62646A;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.dashboard_gig_container .dashboard_gig_filter_wrapper .clock_img_wrapper .clock_image{
+    height: 20px;
+    width: 20px;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .clock_img_wrapper .deadline{
+    color:black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .clock_img_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .course-status_wrapper .course_status{
+    color: #62646A;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .course-status_wrapper .course_progress_bar{
+    background-color: #006682;
+    color: white;
+    padding: 4px  8px;
+    border-radius: 8px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .view_button button{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: #1DBF73;
+    font-size: 1rem;
+    font-weight: 600;
+}
+

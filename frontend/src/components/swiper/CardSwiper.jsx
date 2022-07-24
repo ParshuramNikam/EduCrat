@@ -30,27 +30,42 @@ export default function CardSwiper() {
           modules={[Pagination, Navigation]}
           className="mySwiper"
         >
+          
           {cards.map((card, index) => (
             <SwiperSlide key={index}>
               <div className="swiper_Card_img_wrapper">
                 <img src={card.image} alt="" />
-                <div className="avatar_wrapper">
+                {/* <p>{card.subtitle}</p> */}
+              </div>
+              {/* <h1>{card.title}</h1> */}
+              <div className="avatar_wrapper">
+                <div>
                   <img
                     className="avatar_img"
                     alt=""
-                    height={30}
-                    width={30}
+                    // height={25}
+                    // width={25}
                     src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
                   />
+                </div>
+                <div>
                   <span className="avatar_name">Deep Lahane</span>
                 </div>
-                <p>{card.subtitle}</p>
               </div>
-              {/* <h1>{card.title}</h1> */}
-               
-             
+              <div>
+                <div>subject</div>
+                <div>$50</div>
+              </div>
+              <div>
+                <div>subject</div>
+                <div>$50</div>
+              </div>
+              <div>
+                <div>subject</div>
+                <div>$50</div>
+              </div>
             </SwiperSlide>
-          ))}
+          ))}	
         </Swiper>
       </div>
     </div>

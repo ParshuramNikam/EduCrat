@@ -9,19 +9,16 @@ const TutorNavbar = () => {
         <img src="/Images/logo/logo_icon.png" alt="" height={36} width={36} />
         <span className="name">EduCrat</span>
         <div className="elemets_div">
-          <Link to={"/"}>
+          <Link to={"/tutor-dashboard"}>
             <span>Dashboard</span>
           </Link>
-          <Link to={"/"}>
+          <Link to={"/tutor-inbox"}>
             <span>Messages</span>
           </Link>
-          <Link to={"/"}>
+          <Link to={"/tutor-orders"}>
             <span>Orders</span>
           </Link>
-          <Link to={"/"}>
-            <span>Gigs</span>
-          </Link>
-          <Link to={"/"}>
+          <Link to={"/tutor-earnings"}>
             <span>Earnings</span>
           </Link>
         </div>

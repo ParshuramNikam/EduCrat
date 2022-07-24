@@ -1,8 +1,8 @@
 import React from "react";
-import DashboadMiniChatBox from "../../components/tutorDashboard/leftSIde/DashboadMiniChatBox/DashboadMiniChatBox";
 import ProfileProgressWrapper from "../../components/tutorDashboard/leftSIde/profileProgressWrapper/ProfileProgressWrapper";
 import OrderStatus from "../../components/tutorDashboard/rightSide/orderStatus/OrderStatus";
 import "./TutorDashboard.css";
+import DashboardGig from "../../components/tutorDashboard/rightSide/dashboardGig/DashboardGig";
 
 const TutorDashboard = () => {
   return (
@@ -13,12 +13,16 @@ const TutorDashboard = () => {
         <div className="left_side">
 
           <ProfileProgressWrapper />
-          <DashboadMiniChatBox />
 
         </div>
 
         <div className="right_side">
-          <OrderStatus />
+          {/* <OrderStatus /> */}
+          <div className="gig_title">Your Gigs:</div>         
+          <DashboardGig />
+          <DashboardGig />
+          <DashboardGig />
+          <DashboardGig />
         </div>
 
       </div>

@@ -14,7 +14,6 @@ const StudentDashboard = () => {
       {/* <DefaultNavbar /> */}
       <Categories />
       <CardSwiper />
-      {/* <Footer /> */}
     </div>
   )
 }

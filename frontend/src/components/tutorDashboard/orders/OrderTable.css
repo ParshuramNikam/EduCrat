@@ -1,0 +1,14 @@
+.order_table_container .order_table tr img{
+height: 40px;
+border-radius: 50%;
+width: 40px;
+}
+
+.order_table_container .order_table tr .order_table_avatar_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.order_table_container .order_table tr .order_table_gig_title{
+}
