@@ -1,0 +1,49 @@
+
+.tutor_dashboard_page .dashboard_container .left_side .profile_details_wrapper {
+	background: white;
+	border-radius: 5px;
+	padding: 1rem;
+}
+
+.tutor_dashboard_page .dashboard_container .profile_details_wrapper .name_rating {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding: .5rem 0;
+}
+
+.tutor_dashboard_page
+	.dashboard_container
+	.left_side
+	.profile_details_wrapper
+	.avatar_container,
+.tutor_dashboard_page
+	.dashboard_container
+	.left_side
+	.profile_details_wrapper
+	.star_rating_container {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.tutor_dashboard_page .left_side .profile_details_wrapper .star_rating {
+	width: 40px;
+	height: 40px;
+}
+
+.tutor_dashboard_page .left_side .progress_Wrapper .rating{
+    height: 7px;
+    width: 50px;
+    border-radius: 60px;
+    background: green;
+}
+
+.tutor_dashboard_page .left_side .progress_Wrapper .rating_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0;
+
+}
