@@ -3,13 +3,13 @@ import './profileProgressWrapper.css';
 
 const ProfileProgressWrapper = () => {
     return (
-        <div className="profile_details_wrapper profile_details_wrapper_shadow ">
+        <div className="profile_details_wrapper ">
             <div className="name_rating">
                 <div className="avatar_container">
                     <div className="avatar_wrapper">
                         <img
                             className="avatar_img"
-                            alt=""
+                            alt="" 
                             src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
                         />
                     </div>
